@@ -255,5 +255,5 @@ transformacion.change(() => {
 });
 
 function page(pag) {
-	$(location).attr("href", "/res/pages/descripciones.html?personaje="+ pag);
+	$(location).attr("href", "res/pages/descripciones.html?personaje="+ pag);
 }
